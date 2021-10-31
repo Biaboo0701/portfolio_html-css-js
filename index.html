@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Meu portfólio Biaboo</title>
+
+</head>
+<body>
+    <header class="header">
+        <div class="perfil-header">
+            <img src="img/capa.jpg" alt="">
+        </div>
+        <div class="nav-menu">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="check-button">
+                <i class="menu-icon"><img src="img/menu.PNG" alt=""></i>
+
+            </label>
+            <ul>
+                <li><a onclick="clickedLink()" href="#apresentacao">APRESENTAÇÃO</a></li>
+                <li><a onclick="clickedLink()" href="#formacao">FORMAÇÃO</a></li>
+                <li><a onclick="clickedLink()" href="#experiencia">EXPERIÊNCIA</a></li>
+                <li><a onclick="clickedLink()" href="#projetos">PROJETOS</a></li>
+                <li><a onclick="clickedLink()" href="#repositorio">GITHUB</a></li>
+                <li><a onclick="clickedLink()" href="#contatos">CONTATOS</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="dados_profissionais">
+        <br><h1 class="titulo" id="apresentacao">Bianda Destin</h1>
+        <p class="subtitulo"><i>Full-Stack Developer Student</p></i><br>
+
+        <i><h3>Olá!</h3></i>
+        <p>Eu sou a Bianda, de nacionalidade
+            haitiana. Tenho 25 anos e quase 5
+            anos de casada. Graduanda em
+            Administração e iniciante no mundo da tecnologia.
+            Já tive várias experiências
+            profissionais que me ajudaram
+            muito a crescer tanto como pessoa,
+            quanto como profissional. Sou muito curiosa,
+            gosto de correr atrás das informações.
+            Sou uma pessoa organizada,
+            tenho capacidade de solucionar problemas e tomar
+            decisões, trabalho bem em equipe.
+            Gosto muito de trabalhar com pessoas,
+            números e a tecnologia. Apaixonada por novos desafios.</p><br>
+        <h3 id="formacao">FORMAÇÃO</h3>
+        <p>Graduanda em Administração com previsão de formatura para Dezembro de 2021. Já fiz muitos cursos técnicos e de aperfeiçoamento no âmbito administrativo. Atualmente entrando no mundo da tecnologia, estou em formação com a TOTI e realizando alguns cursos extras.</p><br>
+        <h3 id="experiencia">EXPERIÊNCIA</h3>
+        <ul>
+           <h4
+                class="experiencia"> <li></li>• Saint-Gobain Brasil Distribuição (Telhanorte) – Estagiária de Recursos Humanos da Área de Admissão e Benefícios:</li></h4>
+            <p>Conferência de documentos admissionais, lançamento em sistema. Dar apoio no controle e atualização de prontuários e no processo de integração dos novos colaboradores: Gerar contratos, confecção de crachás, criação de acessos, etc.). Gerenciar alguns benefícios e acompanhar a avaliação do período de experiência junto aos gestores.<h4 class="experiencia">2019 – 2021.</h4></p>
+            <br>
+
+            <li><h4 class="experiencia">• Universidade Cidade de São Paulo – Estagiária do núcleo de estágio alunos EAD:</h4></li>
+            <p>Recebimento e preparo de malotes, análise de Termos de contratos de estagiários e controle dos mesmos.<h4 class="experiencia">2018 – 2019</h4></p>
+            <br>
+
+        <li><h4 class="experiencia">• COTAÇÃO DTVM – Assistente de Remessa Expressa</h4></li>
+            <p>Realizar envio de dinheiro ao exterior, prestar suporte a clientes, parceiros e filiais.<h4 class="experiencia">2017 - 2018</h4></p>
+            <br>
+
+            <li><h4 class="experiencia">• SMALL WORLD BRASIL Serv. Financ. e Tur. LTDA. – Assistente operacional</h4></li>
+            <p>Realizar envio de dinheiro ao exterior; prestar suporte a clientes, parceiros e filiais; e também realizar treinamento para os novos associados.<h4 class="experiencia">2016 - 2017</h4></p>
+            <br>
+        </ul>
+        <br>
+
+        <h3 id="projetos">PROJETOS</h3>
+        <div class="projetos_github">
+            <a href="https://biaboo0701.github.io/Receita_html/" target="_blank" rel="noopener"><br><img src="img/receita_banana_frita.PNG" width="325" height="150" alt="receita banana da terra frita" class="img_projetos"> 
+            </a>
+            <p>Receita de banana da terra frita - HTML</p>
+        </div><br> 
+
+<h3 id="repositorio">GITHUB</h3>
+      <div class="contato" id="github">
+        <div>
+            <b><label class="github_api" for="github">Dá só um click no botão abaixo e listar os meus Repositórios do Github:
+            </label></b></div>
+        <div id="repos"></div>
+
+    <button onclick="github(this)"
+        class=btn type="submit" id="submitBtn" value="Submit"><b>Listar</b></button>
+    </div><br>
+    <div class="container_reposit" id="listRepos">    
+        <div>
+            <h4>🌻Meus Repositórios🌻</h4>
+            <p id="nomeGitHub"></p>
+        </div><br>
+        <div>
+            <h4>🌻Link dos respectivos Repositórios🌻</h4>
+            <p id="linkGitHub"></p>
+        </div>
+    </div>
+</main>
+
+        <footer class="contatos">
+        <h3 id="contatos">CONTATOS</h3><br>
+        <p class="rodape">Quer entrar em contato comigo?<br><br>
+        Preencha o formulário no fim da página e entrarei<br> em contato o mais rápido possível.<br><br>
+        Você também poderá me encontrar nas seguintes redes sociais:
+        </p><br>
+        <div class="email">✉️biaboo2015@yahoo.com</div><br>
+<div class="rede">
+
+            <a href="https://github.com/Biaboo0701" target="_blan" fel="noopener"><img class="icone" src="img/github.png" alt="">
+            </a>
+            <a href="https://br.linkedin.com/in/bianda-woobie-saint-aubin-destin-814213190" target="_blan" fel="noopener"><img class="icone" src="img/linkedin.png">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5511984608495" target="_blan" fel="noopener"><img class="icone" src="img/whatsapp.png">
+            </a>
+            <a href="https://www.instagram.com/biaboocool/" target="_blan" fel="noopener"><img class="icone" src="img/instagram.png">
+            </a>
+            <a href="https://pt-br.facebook.com/biaboo.destin" target="_blan" fel="noopener"><img class="icone" src="img/facebook.png">
+            </a>
+
+</div>
+
+<form class="contato" id="myform">
+    <div  class="msg"></div><br>
+    <div>
+        <label class="titulo_form" for="nome">NOME:</label><br>
+        <input class="quadro_form"
+        type="text"
+        name="nome"
+        id="nome" onsubmit='valida()'></input type="submit">
+    </div><br>
+    
+    <div>
+        <label class="titulo_form" for="email">E-MAIL:</label><br>
+        <input class="quadro_form"
+        type="email"
+        name="email"
+        id="email" onsubmit='valida()'
+        placeholder="...@seumail.com"></input type="submit">
+    </div><br>
+
+    <div>
+        <label class="titulo_form" for="assunto">ASSUNTO:</label><br>
+        <input class="quadro_form"
+        type="text"
+        name="assunto"
+        id="assunto" onsubmit="valida()"></input type="submit">
+    </div><br>
+
+    <label class="titulo_form" for="mensagem">MENSAGEM:</label><br>
+    <textarea class="mensagem" name="texto" id="mensagem"
+    cols="49" rows="7" maxlength="100" onsubmit='valida()'>
+    </textarea type="submit"><br>
+
+    <button onclick="clickedLink()" 
+    class=btn type="submit" id="submitbutton" value="Submit"><b>Enviar</b>
+</button>
+</form><br>
+<p class="identificacao">&COPY; 2021  Biaboo  Destin</p>
+        </footer> 
+
+       <script src="script.js"></script> 
+</body>
+</html>
